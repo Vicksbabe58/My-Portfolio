@@ -1,4 +1,4 @@
-/* SheCodes css*/
+/* all Html file css*/
 :root {
   --branding-color: radial-gradient(
     circle at -2% -25%,
@@ -124,6 +124,7 @@ p {
   line-height: 27px;
   padding: 15px 30px;
   margin-top: 40px;
+  transition:all 200ms ease-in-out;
 }
 .btn-branding:hover {
   background: var(--branding-color-hover);
@@ -139,6 +140,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 200ms ease-in-out;
 }
 .btn-branding-outline:hover {
   background: var(--branding-color-hover);
@@ -175,7 +177,7 @@ nav {
   padding: 20px 0;
 }
 
-/*about css*/
+
 
 /*footer*/
 footer {
