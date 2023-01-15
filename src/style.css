@@ -169,8 +169,8 @@ nav li {
   line-height: 42px;
   margin-left: 15px;
 }
-nav a:hover {
-  color: var(--branding-color-hover);
+nav a:hover,
+
 nav li .active a {
   color: var(--branding-color);
 }
