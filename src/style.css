@@ -86,13 +86,19 @@ p {
   color: #6c757d;
 }
 
-/*index css*/
+/*Media queries*/
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
     line-height: 1.5;
   }
+
+  .bar {
+    font-size: 15px;
+  }
 }
+
+/*index css*/
 .logo {
   max-height: 40px;
 }
@@ -101,6 +107,7 @@ p {
   text-align: center;
   padding: 60px 20px;
 }
+
 .hero p {
   font-size: 36px;
   font-weight: bold;
@@ -157,6 +164,8 @@ p {
   font-weight: 700;
   font-size: 30px;
 }
+
+/*Nav Bar*/
 nav a {
   text-decoration: none;
   color: #272142;
@@ -181,6 +190,9 @@ nav li.active a {
 }
 nav {
   padding: 20px 0;
+}
+.bar {
+  font-size: 18px;
 }
 
 /*footer*/
