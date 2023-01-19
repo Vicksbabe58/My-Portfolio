@@ -23,6 +23,18 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
+/*Media queries*/
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  .bar {
+    font-size: 14px;
+  }
+}
+
 body {
   font-family: var(--default-font-family);
   background: #97a9b8;
@@ -47,7 +59,7 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
-
+/*About Css*/
 .about-section {
   padding: 60px 20px;
 }
@@ -65,12 +77,12 @@ p {
   font-family: var(--default-font-family);
 }
 
-/* About Css*/
+/* About Css / Project Css*/
 .rounded {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
-/*Project CSS*/
+/*Project CSS / Contact Css*/
 .content-container {
   padding: 60px 20px;
 }
@@ -86,16 +98,24 @@ p {
   color: #6c757d;
 }
 
-/*Media queries*/
-@media (max-width: 900px) {
-  h1 {
-    font-size: 44px;
-    line-height: 1.5;
-  }
+/* Project Css*/
+.project-name a {
+  text-decoration: none;
+}
+.project-name:hover {
+  font-size: 30px;
+}
 
-  .bar {
-    font-size: 14px;
-  }
+/*contact css*/
+.links a {
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 200ms ease-in;
+}
+
+.links a:hover {
+  color: #944260;
+  font-size: 23px;
 }
 
 /*index css*/
@@ -165,7 +185,7 @@ p {
   font-size: 30px;
 }
 
-/*Nav Bar*/
+/*Nav Bar css*/
 nav a {
   text-decoration: none;
   color: #272142;
@@ -192,7 +212,7 @@ nav {
   padding: 20px 0;
 }
 
-/*footer*/
+/*footer css*/
 footer {
   margin: 60px 0;
 }
@@ -224,4 +244,11 @@ footer .social-links a {
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
+}
+.sourced {
+  font-weight: 600;
+}
+.sourced a {
+  font-weight: 500;
+  color: blueviolet;
 }
