@@ -94,7 +94,7 @@ p {
   }
 
   .bar {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -190,9 +190,6 @@ nav li.active a {
 }
 nav {
   padding: 20px 0;
-}
-.bar {
-  font-size: 18px;
 }
 
 /*footer*/
